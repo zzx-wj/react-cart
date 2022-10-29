@@ -1,5 +1,5 @@
 import React from 'react';
-import Cart from './cart'
+import Cart from './pages/Cart/index'
 import './App.css';
 import 'antd/dist/antd.css';
 
