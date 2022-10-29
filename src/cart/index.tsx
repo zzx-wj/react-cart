@@ -19,6 +19,7 @@ const cartData = Array(5)
   }))
 
 export default function Cart() {
+  //使用自定义hooks
   const {
     checkedAll,
     checkedMap,
@@ -66,7 +67,7 @@ export default function Cart() {
           const checked = checkedMap[item.id] || false
           return (
             <List.Item>
-              <ItemCard item={item} checked={checked} onCheckedChange={onCheckedChange}/>
+              <ItemCard item={item} checked={checked} onCheckedChange={onCheckedChange} />
             </List.Item>
           )
         }}

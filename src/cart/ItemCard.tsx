@@ -25,7 +25,7 @@ const ItemCard = React.memo((props: Props) => {
     const { checked } = e.target
     onCheckedChange(item, checked)
   }
-  
+
   return (
     <div className="item-card">
       <div className="checkbox-wrap">
